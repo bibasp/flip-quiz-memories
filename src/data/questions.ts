@@ -1,4 +1,3 @@
-
 import { Question } from '@/context/QuestionsContext';
 
 export const questionData: Question[] = [
@@ -332,5 +331,349 @@ export const questionData: Question[] = [
     question: "Why did the university award you this scholarship?",
     answer: "The university awarded me this scholarship based on my academic credentials, professional experience in relevant infrastructure projects, and the international perspective I bring to their civil engineering program.",
     category: "Scholarships"
+  },
+  
+  // XVII. Health and Insurance Questions
+  {
+    id: 51,
+    question: "Do you have any health concerns that might affect your studies?",
+    answer: "No, I'm in good health with no medical conditions that would affect my studies. I understand the importance of maintaining good health while studying abroad.",
+    category: "Health and Insurance"
+  },
+  {
+    id: 52,
+    question: "Are you aware of health insurance requirements for international students?",
+    answer: "Yes, I'm aware that international students must have health insurance coverage in the US. Lamar University offers a student health insurance plan, and I've included these costs in my financial planning.",
+    category: "Health and Insurance"
+  },
+  
+  // XVIII. Study Habits and Time Management
+  {
+    id: 53,
+    question: "How will you balance your coursework and research responsibilities?",
+    answer: "I'll apply the time management skills I developed during my undergraduate studies and professional work. I plan to create structured study schedules, utilize university resources efficiently, and maintain regular communication with professors to stay on track with coursework and research commitments.",
+    category: "Study Habits"
+  },
+  {
+    id: 54,
+    question: "How do you plan to succeed academically in the US?",
+    answer: "I plan to succeed by actively participating in classes, forming study groups with peers, utilizing professors' office hours, and taking advantage of university resources like research facilities and libraries. My professional experience provides practical context that will help me connect theoretical concepts with real-world applications.",
+    category: "Study Habits"
+  },
+  
+  // XIX. Concluding Questions
+  {
+    id: 55,
+    question: "Is there anything else you would like us to know?",
+    answer: "I've carefully selected this program at Lamar University because it directly addresses the infrastructure resilience knowledge that Nepal critically needs. My background, financial preparations, and career plans demonstrate my genuine intent to study and return to Nepal to contribute to our infrastructure development.",
+    category: "Concluding Questions"
+  },
+  {
+    id: 56,
+    question: "Do you have any questions for me?",
+    answer: "No, thank you. The visa application process has been clear, and I appreciate your consideration of my application.",
+    category: "Concluding Questions"
+  },
+  
+  // XX. Emergency and Contingency Questions
+  {
+    id: 57,
+    question: "What will you do in case of an emergency while in the US?",
+    answer: "In case of an emergency, I'll contact the university's international student office, use the university's health services, and reach out to my family in Nepal. I'll also register with the Nepali embassy in the US upon arrival and keep their contact information accessible.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 58,
+    question: "How will you communicate with your family in Nepal?",
+    answer: "I'll maintain regular communication with my family through internet-based platforms like WhatsApp, Zoom, and email. I've budgeted for reliable internet service and a good mobile plan to ensure consistent communication.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 59,
+    question: "What will you do if you face academic difficulties?",
+    answer: "If I face academic challenges, I'll immediately utilize university resources like tutoring services, professor office hours, study groups, and the international student support office. I'm committed to addressing any difficulties proactively.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 60,
+    question: "How will you handle cultural adjustment issues?",
+    answer: "I'll manage cultural adjustment by participating in university orientation programs, connecting with international and local student groups, and utilizing the international student services office resources. I've also researched American cultural norms to prepare myself.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 61,
+    question: "What arrangements have you made for your arrival in the US?",
+    answer: "I've researched transportation options from the airport to campus and temporary accommodation if needed before university housing is available. I've also noted important contact numbers and planned for initial expenses like food and transportation until I'm settled.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 62,
+    question: "Have you arranged housing in the US?",
+    answer: "I plan to apply for on-campus housing initially, which will help me adjust to university life and connect with other students. I've researched the application process and deadlines, and included housing costs in my financial planning.",
+    category: "Emergency Planning"
+  },
+  {
+    id: 63,
+    question: "What will you contribute to the university community?",
+    answer: "I'll contribute my international perspective on infrastructure challenges in developing countries, practical experience from Nepal's major water supply projects, and enthusiasm for collaborative research. I also hope to participate in cultural exchange activities to share Nepali culture with the campus community.",
+    category: "University Contribution"
+  },
+  {
+    id: 64,
+    question: "What is your greatest strength that will help you succeed?",
+    answer: "My greatest strength is my ability to connect theoretical knowledge with practical applications, developed through my work on complex infrastructure projects in Nepal. This skill will help me excel in academic research while maintaining focus on real-world solutions applicable to my country's needs.",
+    category: "University Contribution"
+  },
+  
+  // Additional Questions About Academic Preparation
+  {
+    id: 65,
+    question: "What specific academic skills have you developed during your undergraduate study?",
+    answer: "During my undergraduate studies, I developed strong analytical skills through structural analysis courses, technical writing skills through numerous project reports, project management abilities through team-based design projects, and research methodologies through my final year project on earthquake-resistant structures.",
+    category: "Academic Preparation"
+  },
+  {
+    id: 66,
+    question: "How have you prepared for the teaching style differences between Nepal and the US?",
+    answer: "I've prepared by taking online courses from US universities to experience their teaching methodologies, consulted with alumni who've studied in the US, and researched the more discussion-based and critical thinking approach common in US graduate programs compared to Nepal's more lecture-based approach.",
+    category: "Academic Preparation"
+  },
+  
+  // Additional Questions About Program Knowledge
+  {
+    id: 67,
+    question: "Can you name some faculty members at Lamar you hope to work with?",
+    answer: "I hope to work with Dr. Yong Je Kim on GIS applications for infrastructure vulnerability assessment, Dr. Venkatesh Uddameri on sustainable water resource management, and Dr. Annette Hernandez on risk analysis methodologies for civil infrastructures in disaster-prone regions.",
+    category: "Program Details"
+  },
+  {
+    id: 68,
+    question: "What specific courses does your program require?",
+    answer: "My program requires core courses in advanced structural analysis, infrastructure resilience planning, water resource systems engineering, and research methodology. Electives include GIS applications in civil engineering, sustainability in infrastructure development, and disaster mitigation strategies.",
+    category: "Program Details"
+  },
+  
+  // Additional Questions About Future Plans
+  {
+    id: 69,
+    question: "What specific skills are you hoping to develop during your program?",
+    answer: "I'm hoping to develop advanced expertise in GIS applications for infrastructure vulnerability assessment, quantitative risk analysis methodologies for disaster-prone regions, sustainable water resource management techniques, and research skills for developing context-specific resilience solutions for Nepal.",
+    category: "Post-Graduation Plans"
+  },
+  {
+    id: 70,
+    question: "How will you maintain professional connections in Nepal while studying abroad?",
+    answer: "I'll maintain my professional connections in Nepal through regular digital communication with colleagues, participation in online professional forums related to Nepal's infrastructure development, and by following ongoing infrastructure projects. I also plan to return during longer breaks to reconnect in person when possible.",
+    category: "Post-Graduation Plans"
+  },
+  
+  // Additional Questions About Visa Knowledge
+  {
+    id: 71,
+    question: "What are the work restrictions for F-1 visa holders?",
+    answer: "F-1 visa holders can work on-campus up to 20 hours per week during academic sessions and full-time during breaks. Off-campus employment is generally not permitted during the first academic year, with exceptions like Curricular Practical Training (CPT) or Optional Practical Training (OPT) that must be authorized and related to the field of study.",
+    category: "Visa Requirements"
+  },
+  {
+    id: 72,
+    question: "What is the process for maintaining your F-1 status?",
+    answer: "To maintain F-1 status, I must maintain full-time enrollment each semester, make satisfactory academic progress, not work off-campus without authorization, keep my passport and I-20 valid, update my address with the DSO within 10 days of moving, and not stay beyond the program end date on my I-20 without proper extension.",
+    category: "Visa Requirements"
+  },
+  
+  // Additional Questions About Financial Planning
+  {
+    id: 73,
+    question: "How will exchange rate fluctuations affect your financial planning?",
+    answer: "I've factored a buffer into my financial planning to account for potential rupee-dollar exchange rate fluctuations. Additionally, my family's ability to provide additional support if needed, combined with my significant personal savings in USD-equivalent funds, provides security against currency fluctuations.",
+    category: "Financial Information"
+  },
+  {
+    id: 74,
+    question: "Have you researched the cost of living in Beaumont, Texas?",
+    answer: "Yes, I've researched that Beaumont has a cost of living approximately 15% lower than the US average. Monthly expenses including housing, food, transportation, and utilities typically range from $1,000-$1,200 for students. On-campus housing is around $500-700 monthly, which is included in my financial planning.",
+    category: "Financial Information"
+  },
+  
+  // Additional Questions About University Choice
+  {
+    id: 75,
+    question: "What other departments or resources at Lamar University interest you?",
+    answer: "Beyond the Civil Engineering department, I'm interested in Lamar's Center for Innovation, Commercialization and Entrepreneurship for potential project management skills, the Office of Undergraduate Research for collaborative opportunities, and their International Student Services office for cultural integration support.",
+    category: "University Choice"
+  },
+  {
+    id: 76,
+    question: "What student organizations at Lamar might you join?",
+    answer: "I'm interested in joining the American Society of Civil Engineers (ASCE) student chapter, the International Student Organization for cultural exchange, and Engineers Without Borders if available, as they align with my interests in infrastructure development for vulnerable communities.",
+    category: "University Choice"
+  },
+  
+  // Additional Questions About Academic Performance
+  {
+    id: 77,
+    question: "What was your rank in your undergraduate class?",
+    answer: "I ranked in the top 25% of my civil engineering graduating class at Tribhuvan University, maintaining consistent academic performance while also engaging in practical infrastructure projects outside of coursework.",
+    category: "Academic Background"
+  },
+  {
+    id: 78,
+    question: "Did you receive any academic awards or honors?",
+    answer: "I received the Outstanding Final Year Project award for our earthquake-resistant hospital design, which implemented innovative torsion reduction techniques. I was also awarded a merit scholarship for consistent academic performance during my second and third years of undergraduate study.",
+    category: "Academic Background"
+  },
+  
+  // Additional Questions About Professional Experience
+  {
+    id: 79,
+    question: "What specific technical skills have you developed in your professional work?",
+    answer: "In my professional work, I've developed advanced skills in AutoCAD and Civil 3D for infrastructure design, GIS mapping for water distribution networks, hydraulic modeling for water supply systems, and project coordination with multiple stakeholders including government officials and contractors.",
+    category: "Work Experience"
+  },
+  {
+    id: 80,
+    question: "How large was the project team you worked with?",
+    answer: "At the Melamchi Water Supply Project, I worked in a team of 15 engineers and technicians in the distribution network division, coordinating with the larger project team of approximately 50 professionals across various disciplines including structural, geotechnical, and environmental engineering.",
+    category: "Work Experience"
+  },
+  
+  // Additional Family Questions
+  {
+    id: 81,
+    question: "How does your family feel about you studying abroad?",
+    answer: "My family fully supports my decision to study abroad. They understand that specialized education in infrastructure resilience will significantly enhance my career prospects and allow me to contribute meaningfully to Nepal's development. They've been involved in my preparation and financial planning process from the beginning.",
+    category: "Family and Personal"
+  },
+  {
+    id: 82,
+    question: "Will any family members be traveling with you?",
+    answer: "No, I will be traveling alone for my studies. My family will remain in Nepal while I complete my education in the United States.",
+    category: "Family and Personal"
+  },
+  
+  // Additional Travel Questions
+  {
+    id: 83,
+    question: "Do you have experience living away from home?",
+    answer: "Yes, during my undergraduate studies, I lived in Kathmandu while my family was in our hometown. Additionally, my work on the Melamchi project involved extended field visits to project sites away from my residence. These experiences have prepared me for independent living while studying abroad.",
+    category: "Travel and Adaptation"
+  },
+  {
+    id: 84,
+    question: "What research have you done about Beaumont, Texas?",
+    answer: "I've researched that Beaumont is in Southeast Texas with a population of about 115,000, has a humid subtropical climate similar to Nepal's Terai region, offers affordable living costs for students, hosts cultural events like the South Texas State Fair, and is approximately 90 minutes from Houston for additional resources and experiences.",
+    category: "Travel and Adaptation"
+  },
+  
+  // Additional Miscellaneous Questions
+  {
+    id: 85,
+    question: "What do you know about the US educational system?",
+    answer: "The US educational system emphasizes critical thinking, class participation, and research over rote memorization. Graduate programs typically involve coursework, research projects, and thesis components. The semester system includes fall, spring, and sometimes summer terms, with regular assessments throughout rather than just final exams.",
+    category: "Miscellaneous"
+  },
+  {
+    id: 86,
+    question: "How do you plan to engage with American culture?",
+    answer: "I plan to engage with American culture by participating in campus cultural events, joining student organizations with diverse membership, exploring local Texan customs and cuisine, and potentially participating in community service activities. These experiences will enhance my understanding while sharing my own cultural perspective.",
+    category: "Miscellaneous"
+  },
+  
+  // Additional Research Interest Questions
+  {
+    id: 87,
+    question: "What emerging trends in civil engineering interest you?",
+    answer: "I'm particularly interested in emerging trends like AI applications in infrastructure vulnerability assessment, climate-resilient design methodologies, advanced materials for disaster-resistant structures, and integrated water-energy systems for sustainable development—all areas where US research leadership could benefit Nepal's infrastructure challenges.",
+    category: "Research Interests"
+  },
+  {
+    id: 88,
+    question: "How might your research interests evolve during your program?",
+    answer: "While my core interest in infrastructure resilience will remain, I expect my research focus might evolve to incorporate advanced technologies like remote sensing for vulnerability assessment, predictive analytics for infrastructure maintenance, or nature-based solutions for flood resilience—areas I'll be exposed to at Lamar's Center for Resilience.",
+    category: "Research Interests"
+  },
+  
+  // Additional Gap Period Questions
+  {
+    id: 89,
+    question: "What professional development activities have you pursued while working?",
+    answer: "During my professional work, I've pursued additional certifications in AutoCAD and GIS applications, participated in workshops on disaster-resistant infrastructure design, and completed online courses on water supply system optimization and project management—all enhancing my readiness for graduate-level studies.",
+    category: "Gaps and Transitions"
+  },
+  {
+    id: 90,
+    question: "How has your professional experience changed your academic interests?",
+    answer: "My professional experience narrowed my academic focus from general civil engineering to specific infrastructure resilience challenges. Working on water supply projects exposed me to how theoretical concepts apply in challenging field conditions and identified specific knowledge gaps that I'm now seeking to address through specialized graduate education.",
+    category: "Gaps and Transitions"
+  },
+  
+  // Additional Return Plan Questions
+  {
+    id: 91,
+    question: "What specific companies or organizations in Nepal might employ you?",
+    answer: "Upon return, I could work with organizations like the Department of Water Supply and Sewerage, Nepal Water Supply Corporation, international development organizations like the Asian Development Bank or World Bank that fund infrastructure projects in Nepal, engineering consultancies like TAEC or Full Bright, or establish my own specialized consultancy.",
+    category: "Return Plans"
+  },
+  {
+    id: 92,
+    question: "How will you transfer the knowledge gained back to Nepal?",
+    answer: "I'll transfer knowledge by implementing resilient design principles in infrastructure projects, conducting training sessions for local engineers, publishing research papers relevant to Nepal's context, potentially teaching part-time at engineering institutions, and engaging with policy makers on infrastructure resilience standards for Nepal.",
+    category: "Return Plans"
+  },
+  
+  // Additional Questions About US Understanding
+  {
+    id: 93,
+    question: "What aspects of US infrastructure planning do you admire?",
+    answer: "I admire the US approach to infrastructure planning that incorporates comprehensive risk assessment, interdisciplinary collaboration, stakeholder engagement, evidence-based decision making, and long-term resilience considerations. These are approaches I hope to adapt for Nepal's context, particularly for water supply infrastructure.",
+    category: "US Knowledge"
+  },
+  {
+    id: 94,
+    question: "What challenges do you think you might face in the US?",
+    answer: "I anticipate challenges like adapting to different teaching methodologies, building a new professional network, adjusting to American communication styles, and balancing academic rigor with self-care. I've prepared by researching these aspects and developed strategies to address each potential challenge.",
+    category: "US Knowledge"
+  },
+  
+  // Additional Academic Transition Questions
+  {
+    id: 95,
+    question: "How different is the engineering curriculum in Nepal compared to the US?",
+    answer: "Nepal's engineering curriculum tends to be more theoretical and exam-focused, while US programs emphasize practical applications, research, and industry collaboration. US programs also offer more specialized courses, advanced laboratory facilities, and interdisciplinary approaches that aren't as developed in Nepal's engineering education system.",
+    category: "Academic Transition"
+  },
+  {
+    id: 96,
+    question: "How will you adapt to different teaching methodologies?",
+    answer: "I'll adapt to different teaching methodologies by actively participating in discussions, seeking clarification when needed, utilizing professor office hours, forming study groups with diverse peers, and taking advantage of university academic support services. I've also familiarized myself with US academic expectations through online courses.",
+    category: "Academic Transition"
+  },
+  
+  // Additional Financial Aid Questions
+  {
+    id: 97,
+    question: "Are you applying for additional scholarships or financial aid?",
+    answer: "Yes, I've applied for the Fulbright Scholarship for international students and the Nepal Education Foundation grant for engineering students studying abroad. I'm also researching departmental assistantships at Lamar University that I could apply for after my first semester.",
+    category: "Scholarships"
+  },
+  {
+    id: 98,
+    question: "Would you consider a graduate assistantship if offered?",
+    answer: "Yes, I would definitely consider a graduate assistantship if offered. Working as a teaching or research assistant would not only provide financial support but also valuable experience in American academic settings and research methodologies. Any such opportunity would complement my academic goals.",
+    category: "Scholarships"
+  },
+  
+  // Additional Campus Life Questions
+  {
+    id: 99,
+    question: "How will you balance academics with extracurricular activities?",
+    answer: "I'll balance academics with select extracurricular activities by creating a structured schedule that prioritizes coursework while allowing time for meaningful campus involvement. I plan to join 2-3 organizations directly related to my professional interests and use time management strategies I developed during my undergraduate studies.",
+    category: "Campus Life"
+  },
+  {
+    id: 100,
+    question: "What aspects of campus life are you looking forward to?",
+    answer: "I'm looking forward to engaging with diverse students and faculty, participating in engineering student organizations, attending research seminars related to infrastructure resilience, utilizing advanced research facilities, and experiencing American campus traditions—all while maintaining focus on my academic goals.",
+    category: "Campus Life"
   }
 ];
