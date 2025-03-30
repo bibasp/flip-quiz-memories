@@ -19,6 +19,17 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: [
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'San Francisco',
+					'Helvetica Neue',
+					'Helvetica',
+					'Arial',
+					'sans-serif'
+				],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
