@@ -675,5 +675,143 @@ export const questionData: Question[] = [
     question: "What aspects of campus life are you looking forward to?",
     answer: "I'm looking forward to engaging with diverse students and faculty, participating in engineering student organizations, attending research seminars related to infrastructure resilience, utilizing advanced research facilities, and experiencing American campus traditions—all while maintaining focus on my academic goals.",
     category: "Campus Life"
+  },
+  
+  // Additional Academic Background Questions
+  {
+    id: 101,
+    question: "What motivated you to choose your undergraduate major?",
+    answer: "I chose Civil Engineering because I was fascinated by the design and construction of infrastructure. I wanted to contribute to building resilient structures that can withstand natural disasters, which is particularly important in Nepal.",
+    category: "Academic Background"
+  },
+  {
+    id: 102,
+    question: "How did you prepare for your standardized tests (GRE/TOEFL)?",
+    answer: "I prepared by taking practice tests, reviewing study materials, and enrolling in online courses. I also practiced English communication skills through discussions and writing exercises.",
+    category: "Academic Background"
+  },
+  {
+    id: 103,
+    question: "Can you describe a challenging project or assignment you completed during your undergraduate studies?",
+    answer: "One challenging project was designing an earthquake-resistant building. It required extensive research and innovative design solutions to reduce structural vulnerabilities.",
+    category: "Academic Background"
+  },
+  
+  // Additional Program and Course-Related Questions
+  {
+    id: 104,
+    question: "How will the curriculum at Lamar University differ from your undergraduate studies?",
+    answer: "The curriculum at Lamar focuses more on advanced topics like infrastructure resilience and GIS applications, which were not covered in depth during my undergraduate studies. It also emphasizes research and practical application.",
+    category: "Program Details"
+  },
+  {
+    id: 105,
+    question: "What specific skills or knowledge do you hope to gain from this program?",
+    answer: "I hope to gain advanced knowledge in infrastructure resilience, particularly in water supply systems and disaster-resistant design. I also aim to develop research skills and learn about GIS applications in civil engineering.",
+    category: "Program Details"
+  },
+  
+  // Additional University Choice Questions
+  {
+    id: 106,
+    question: "What makes Lamar University unique compared to other universities you applied to?",
+    answer: "Lamar University's Center for Resilience sets it apart. It focuses on multi-disaster resilience research, which is directly relevant to Nepal's infrastructure challenges. The faculty expertise and research opportunities make it unique.",
+    category: "University Choice"
+  },
+  {
+    id: 107,
+    question: "How does the location of Lamar University benefit your studies?",
+    answer: "Beaumont, Texas, has a climate similar to Nepal's Terai region, which will allow me to study infrastructure challenges in a comparable environment. The university's proximity to Houston also provides access to additional cultural and professional opportunities.",
+    category: "University Choice"
+  },
+  
+  // Additional Financial Questions
+  {
+    id: 108,
+    question: "How have you ensured that you have sufficient funds for your entire program?",
+    answer: "I have ensured sufficient funds by combining my personal savings from land sales and employment, my parents' income, and the scholarship from Lamar University. I have also budgeted conservatively to cover all expenses.",
+    category: "Financial Information"
+  },
+  {
+    id: 109,
+    question: "What steps have you taken to manage your finances while studying in the US?",
+    answer: "I have created a detailed budget plan, including a buffer for unexpected expenses. I will monitor my spending regularly and seek additional support from my family if needed.",
+    category: "Financial Information"
+  },
+  
+  // Additional Work Experience Questions
+  {
+    id: 110,
+    question: "How has your work experience prepared you for graduate studies?",
+    answer: "My work experience on the Melamchi Water Supply Project has given me practical insights into infrastructure challenges. It has also enhanced my problem-solving skills and ability to work on complex projects, which will be valuable in my graduate studies.",
+    category: "Work Experience"
+  },
+  {
+    id: 111,
+    question: "Can you provide an example of a problem you solved at work?",
+    answer: "One problem I solved was optimizing the water distribution network to reduce leakage. By analyzing the system and implementing design changes, we improved efficiency by 15%.",
+    category: "Work Experience"
+  },
+  
+  // Additional Post-Graduation Plans
+  {
+    id: 112,
+    question: "How do you plan to stay connected with Nepal's infrastructure industry while studying in the US?",
+    answer: "I plan to stay connected by maintaining regular communication with my colleagues and mentors in Nepal. I will also participate in international conferences and collaborate on research projects related to Nepal's infrastructure challenges.",
+    category: "Post-Graduation Plans"
+  },
+  {
+    id: 113,
+    question: "What specific contributions do you hope to make to Nepal's infrastructure development after graduation?",
+    answer: "I hope to contribute by developing disaster-resistant infrastructure solutions tailored to Nepal's geological and climate conditions. I aim to apply my knowledge to improve water supply systems and transportation networks, making them more sustainable and resilient.",
+    category: "Post-Graduation Plans"
+  },
+  
+  // Additional Family and Personal Questions
+  {
+    id: 114,
+    question: "How will your family support you emotionally and financially during your studies?",
+    answer: "My family will support me emotionally by maintaining regular communication and providing encouragement. Financially, they will contribute to my expenses and provide additional support if needed.",
+    category: "Family and Personal"
+  },
+  {
+    id: 115,
+    question: "What are your hobbies and how do you plan to pursue them in the US?",
+    answer: "My hobbies include reading and hiking. I plan to pursue them in the US by joining book clubs and exploring nearby hiking trails. These activities will help me relax and stay connected to my interests.",
+    category: "Family and Personal"
+  },
+  
+  // Additional Travel and Adaptation Questions
+  {
+    id: 116,
+    question: "How do you plan to adapt to the academic rigor of a US university?",
+    answer: "I plan to adapt by utilizing university resources like tutoring services, study groups, and office hours. I will also maintain a structured study schedule and seek help from professors and peers when needed.",
+    category: "Travel and Adaptation"
+  },
+  {
+    id: 117,
+    question: "What steps have you taken to prepare for cultural differences in the US?",
+    answer: "I have researched American culture, customs, and academic expectations. I have also practiced English communication skills and plan to participate in university orientation programs to ease my transition.",
+    category: "Travel and Adaptation"
+  },
+  
+  // Additional Miscellaneous Questions
+  {
+    id: 118,
+    question: "How do you plan to handle academic stress and maintain your mental health?",
+    answer: "I plan to handle academic stress by maintaining a balanced schedule, utilizing university counseling services, and engaging in stress-relieving activities like exercise and hobbies. I will also stay connected with family and friends for emotional support.",
+    category: "Miscellaneous"
+  },
+  {
+    id: 119,
+    question: "What are your long-term career goals and how does this program align with them?",
+    answer: "My long-term career goal is to become a leading expert in infrastructure resilience in Nepal. This program aligns with my goals by providing advanced knowledge and research opportunities in this field, which will enable me to contribute to Nepal's development.",
+    category: "Miscellaneous"
+  },
+  {
+    id: 120,
+    question: "How will you ensure that you maintain a strong academic performance throughout your program?",
+    answer: "I will ensure strong academic performance by setting clear goals, maintaining a structured study schedule, and utilizing university resources. I will also seek feedback from professors and engage in collaborative research projects to enhance my learning.",
+    category: "Academic Preparation"
   }
 ];
